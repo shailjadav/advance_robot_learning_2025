@@ -99,7 +99,7 @@ source /catkin_ws/devel/setup.bash
    ```
    Note: Adjust the USB port if your device is connected to a different port.
 
-3. **Launch the GUI control panel**:
+3. **Launch the GUI control panel (after homing stop it)**:
    ```bash
    roslaunch open_manipulator_6dof_control_gui open_manipulator_6dof_control_gui.launch
    ```
@@ -169,9 +169,7 @@ source /catkin_ws/devel/setup.bash
 - Ensure all dynamixel motors are in the correct control mode before recording.
 - Verify the USB port in controller launch file matches your hardware setup.
 
-## License
 
-[Include license information here]
 
 ## Acknowledgments
 
