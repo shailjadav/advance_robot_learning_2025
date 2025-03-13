@@ -1,16 +1,6 @@
 # Open Manipulator 6DOF
 
 This repository contains all the necessary packages to control and simulate the Open Manipulator 6DOF robot using ROS.
-
-## Getting Started
-
-### Prerequisites
-
-- Ubuntu 18.04 or 20.04
-- ROS Melodic or Noetic
-- NVIDIA GPU for hardware acceleration in Gazebo (recommended)
-- Docker
-
 ### Docker Setup
 
 This project uses Docker to create a consistent environment with all the dependencies pre-installed.
