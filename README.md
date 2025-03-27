@@ -161,6 +161,12 @@ source /catkin_ws/devel/setup.bash
    ```bash
    rosbag play ~/catkin_ws/recordings/move1.bag
    ```
+3. Running on robot
+   ```bash
+    roslaunch om_position_controller position_control.launch
+    rosbag play move1.bag --hz=50
+   ```
+
 
 ## Troubleshooting
 
