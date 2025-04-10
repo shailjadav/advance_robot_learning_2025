@@ -32,7 +32,20 @@ This project uses Docker to create a consistent environment with all the depende
 
    3(a) With Realsense
    ```bash
-   docker run -it     --gpus all     --env="DISPLAY"     --env="QT_X11_NO_MITSHM=1"     --env="NVIDIA_VISIBLE_DEVICES=all"     --env="NVIDIA_DRIVER_CAPABILITIES=all"     --volume="/tmp/.X11-unix:/tmp/.X11-unix:rw"     --volume="$HOME/.Xauthority:/root/.Xauthority:rw"     --volume="/dev:/dev"     --device-cgroup-rule="c 81:* rmw"     --device-cgroup-rule="c 189:* rmw"     --net=host     --privileged     om_n1
+   docker run -it \
+    --gpus all \
+    --env="DISPLAY" \
+    --env="QT_X11_NO_MITSHM=1" \
+    --env="NVIDIA_VISIBLE_DEVICES=all" \
+    --env="NVIDIA_DRIVER_CAPABILITIES=all" \
+    --volume="/tmp/.X11-unix:/tmp/.X11-unix:rw" \
+    --volume="$HOME/.Xauthority:/root/.Xauthority:rw" \
+    --volume="/dev:/dev" \
+    --device-cgroup-rule="c 81:* rmw" \
+    --device-cgroup-rule="c 189:* rmw" \
+    --net=host \
+    --privileged \
+    om_n1
   ```
    
 
