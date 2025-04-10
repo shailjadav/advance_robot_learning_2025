@@ -123,12 +123,6 @@ source /catkin_ws/devel/setup.bash
    roslaunch open_manipulator_6dof_control_gui open_manipulator_6dof_control_gui.launch
    ```
 
-4. **Run example scripts**:
-   ```bash
-   cd src/open_manipulator_friends/open_manipulator_6dof_controller/scripts/
-   python example.py
-   ```
-
 ## Recording and Playback
 
 ### Preparing for Recording
