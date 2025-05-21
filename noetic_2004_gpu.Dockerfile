@@ -138,7 +138,7 @@ RUN wget https://github.com/IntelRealSense/librealsense/raw/master/scripts/libuv
 RUN chmod +x ./libuvc_installation.sh
 RUN ./libuvc_installation.sh
 
-RUN apt-get install ros-noetic-realsense2-camera
+RUN apt-get install -y ros-noetic-realsense2-camera
 
 # Source the ROS environment by default
 RUN echo "source /opt/ros/noetic/setup.bash" >> /root/.bashrc
